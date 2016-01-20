@@ -7,5 +7,9 @@ module HandRules
     def value
       4
     end
+
+    def to_s
+      'three-of-a-kind'
+    end
   end
 end

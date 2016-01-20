@@ -7,5 +7,9 @@ module HandRules
     def value
       2
     end
+
+    def to_s
+      'one-pair'
+    end
   end
 end

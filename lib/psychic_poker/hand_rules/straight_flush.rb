@@ -7,5 +7,9 @@ module HandRules
     def value
       9
     end
+
+    def to_s
+      'straight-flush'
+    end
   end
 end

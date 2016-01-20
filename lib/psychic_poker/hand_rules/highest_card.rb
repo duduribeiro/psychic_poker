@@ -3,5 +3,9 @@ module HandRules
     def value
       1
     end
+
+    def to_s
+      'highest-card'
+    end
   end
 end

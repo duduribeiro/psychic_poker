@@ -11,5 +11,9 @@ module HandRules
     def value
       5
     end
+
+    def to_s
+      'straight'
+    end
   end
 end

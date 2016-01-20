@@ -7,5 +7,9 @@ module HandRules
     def value
       7
     end
+
+    def to_s
+      'full-house'
+    end
   end
 end
