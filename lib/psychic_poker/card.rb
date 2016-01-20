@@ -1,5 +1,5 @@
 class Card
-  attr_reader :face
+  attr_reader :face, :suit
 
   def initialize(card)
     @face, @suit = Face.new(card.chars.first), Suit.new(card.chars.last)
