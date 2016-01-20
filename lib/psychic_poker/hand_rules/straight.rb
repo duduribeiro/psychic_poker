@@ -3,7 +3,7 @@ module HandRules
     def match_rule?(hand)
       hand.sort_by!{ |card| card.face.face_value }
       (0..hand.length-2).each do |time|
-        return false unless hand[time].face.face_value == hand[time+1].face.face_value-1
+        return false unless hand[time+1].sequence_of(hand[time])
       end
       true
     end
