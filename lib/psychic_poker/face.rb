@@ -8,6 +8,7 @@ class Face
     'K' => 13,
     'A' => 14
   }
+
   def initialize(face)
     @face = face
   end
