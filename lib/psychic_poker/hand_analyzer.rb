@@ -1,7 +1,7 @@
 class HandAnalyzer
-  RULES = HandRules::Flush.new(
+  RULES = HandRules::FourOfAKind.new(HandRules::FullHouse.new(HandRules::Flush.new(
     HandRules::Straight.new(HandRules::ThreeOfAKind.new(HandRules::TwoPairs.new(HandRules::OnePair.new)))
-  )
+  )))
 
   def self.analyze(hand)
     RULES.process_rules(hand)
