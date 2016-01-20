@@ -2,7 +2,7 @@ module HandRules
   class BaseRule
     attr_reader :next_rule
 
-    def initialize(next_rule)
+    def initialize(next_rule = nil)
       @next_rule = next_rule
     end
 
