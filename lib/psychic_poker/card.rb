@@ -8,4 +8,5 @@ class Card
   def <=>(other)
     self.face <=> other.face
   end
+
 end
