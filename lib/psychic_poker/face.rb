@@ -1,4 +1,6 @@
 class Face
+  attr_reader :face
+
   FACE_VALUES = {
     'T' => 10,
     'J' => 11,
